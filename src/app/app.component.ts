@@ -35,6 +35,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  condition = false;
+  // condition = false;
 
 }

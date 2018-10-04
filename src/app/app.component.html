@@ -1,26 +1,3 @@
 
-<h1>Attribute directive: appHighlight</h1>
+<p>pruebe sus directivas aqui</p>
 
-<p appHighlight="yellow">Highlighted in yellow</p>
-
-<br />
-
-<p [appHighlight]="'orange'">Highlighted in orange</p>
-
-<br />
-
-<p appHighlight>Highlighted in default color (red)</p>
-
-<br />
-
-<h1>Structural directive: appUnless</h1>
-
-<div>
-  <span>Condition is: {{condition}}</span>
-  &nbsp;
-  <button (click)="condition = !condition">Toggle condition</button>
-</div>
-
-<p *appUnless="condition">
-  This text is shown because the condition is false.
-</p>
